@@ -1,0 +1,33 @@
+.app__root {
+  text-align: center;
+  color: dimgray;
+  font-family: serif;
+}
+
+.app__icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: dimgray;
+  margin-left: 10px;
+}
+
+button:disabled {
+  color: #ccc;
+  cursor: none;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.field {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.list {
+  margin: auto;
+  width: 40%;
+}
